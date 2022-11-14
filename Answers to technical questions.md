@@ -1,10 +1,10 @@
 # CONFABULATE Recruitment Test
 
-## [Demo](https://rota.innvotechnologies.online/)
+## [Demo](https://rotas.innvotechnologies.online/)
 
 1. All above three scenarios are working.
 2. Laravel Unit Test Included .
-3. The Created Class can Handle Multiple Shops and Rota Scenarios, Just need to implement the DB behind it, it's also supported a web view, Just [Click here](https://rota.innvotechnologies.online/) to see the Demo
+3. The Created Class can Handle Multiple Shops and Rota Scenarios, Just need to implement the DB behind it, it's also supported a web view, Just [Click here](https://rotas.innvotechnologies.online/) to see the Demo
 
 ## Unit Test Details
     
@@ -19,7 +19,7 @@ Please answer the following questions in a markdown file called `Answers to tech
 1. How long did you spend on the coding test? What would you add to your solution if you had more time?
 
     
-    On Coding test Almost One Hour, I just add a web view including DB to implement that solution. [Demo](https://rota.innvotechnologies.online) 
+    On Coding test Almost One Hour, I just add a web view including DB to implement that solution. [Demo](https://rotas.innvotechnologies.online) 
  
 2. Why did you choose PHP as your main programming language?
   
