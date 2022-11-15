@@ -21,7 +21,7 @@ class RotaTest extends TestCase
 
     public function test_postData(){
         //Just Add the Same Day Date in both case (One Employee/Multiple Employee)
-        $postData = array([
+        $multipleEmployee = array([
             'Staff Name' => 'Black Widow',
             'shiftStartTime' => '2022-11-14 09:00:00',
             'shiftEndTime' => '2022-11-14 15:00:00'
@@ -30,8 +30,13 @@ class RotaTest extends TestCase
             'shiftStartTime' => '2022-11-14 12:00:00',
             'shiftEndTime' => '2022-11-14 15:00:00'
         ]);
+        $oneEmployee = array([
+            'Staff Name' => 'Black Widow',
+            'shiftStartTime' => '2022-11-14 09:00:00',
+            'shiftEndTime' => '2022-11-14 15:00:00'
+        ]);
 
-        $response = $this->post('/postData',$postData);
+        $response = $this->post('/postData',$oneEmployee);
         $response->dd();
     }
 }
